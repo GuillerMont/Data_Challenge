@@ -30,7 +30,7 @@ Using this base, criminality indicators were constructed for the surroundings of
 * `robos_500m`: Number of theft/robbery crimes registered within a 500m radius.
 * `homicidios_500m`: Number of homicides and shooting events within 500m.
 * `sexuales_500m`: Number of sexual crimes (rape, abuse, harassment) within 500m.
-* `delitos_reales_500m`: Total count of real crimes within 500m, excluding records classified as "NON-CRIMINAL".
+* `delitos_reales_500m`: Total count of real crimes within 500m, excluding records classified as "NO DELICTIVO".
 
 ### BASEF.csv
 This is the final consolidated dataset resulting from the cleaning, feature engineering, and spatial join processes executed in the code. It serves as the direct input for the econometric models (`smf.ols`).
